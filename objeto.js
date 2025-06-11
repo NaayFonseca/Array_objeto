@@ -35,3 +35,6 @@ console.log(pessoa);
 console.log(pessoa.dataDeNascimento);
 console.log(pessoa.endereço);
 console.log(pessoa.contato.emial);
+
+//ao chamar uma prooriedade que contem uma função, deve-se colocar os parênteses
+console.log(pessoa.adicionar())
